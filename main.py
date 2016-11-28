@@ -9,9 +9,6 @@ import environment as env
 import agent
 
 
-world = env.Environment(10,10)
-agent = agent.Agent(world)
+world = env.Environment(4,4)
+agent=agent.Agent(world)
 print(world)
-print(agent)
-
-
